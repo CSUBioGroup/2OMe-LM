@@ -1,6 +1,6 @@
 # 2OMe-LM
 
-Predicting 2’-O-methylation Sites in Human RNA Using A Pretrained RNA Language Model.
+Predicting 2’-O-methylation Sites in Human RNA Using A Pre-trained RNA Language Model.
 
 The web server for prediction and visualization available at [http://csuligroup.com:8000/2OMe-LM](http://csuligroup.com:8000/2OMe-LM).
 
