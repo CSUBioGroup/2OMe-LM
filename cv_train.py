@@ -126,7 +126,7 @@ class cv_train:
             loss1 = self.lossfn1(x1_tensor, label_tensor)
             loss_sum = loss1
 
-            print(f"SumLoss= {loss_sum:.3f};", end='')
+            print(f"Loss= {loss_sum:.3f};", end='')
 
             label_tensor = label_tensor.to(torch.int)
             x1_numpy, label_numpy = x1_tensor.cpu().numpy(), label_tensor.cpu().numpy()
