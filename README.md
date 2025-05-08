@@ -61,13 +61,19 @@ The pre-trained model used in 2OMe-LM is [**SpliceBERT.1024nt**](https://zenodo.
 In the `utils/config.py` file, you can adjust the hyperparameters. 
 
 >In the `utils/config.py`, the meaning of the variables is explained as follows:
-
+>
 >> ***seed*** is the seed for model initialization.
+>> 
 >> ***batchSize*** is the batchsize of training.
+>>
 >> ***numEpochs*** is the largest number of training epochs.
+>> 
 >> ***earlyStop*** is the parameter corresponding to the early stop method.
+>> 
 >> ***lr*** is the learning rate of training.
+>> 
 >> ***savePath*** is the folder where the model is saved.
+>> 
 >> ***device*** is the device you used to build and train the model. It can be "cpu" for cpu or "cuda" for gpu, and "cuda:0" for gpu 0.
 
 If you don’t modify the file, the default parameters will be used for training. To start the training, just run the following command:
